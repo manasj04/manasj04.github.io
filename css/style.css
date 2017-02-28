@@ -436,6 +436,12 @@ p.w3ls_head_para {
     text-transform: uppercase;
     letter-spacing: 7px;
 }
+p.w3ls_head_para1 {
+    color: #369fc3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 .w3l-grids-about {
     margin-top: 3em;
 }
@@ -590,7 +596,7 @@ p.b_label {
     letter-spacing: 2px;
 }
 .education-agile-grids {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .education-agile-w3l-year h6 {
     color: #369fc3;
@@ -603,13 +609,20 @@ p.b_label {
     font-size: 0.9em;
     line-height: 1.9em;
     color: #777;
-    margin-top: 10px;
 }
 .education-agile-w3l.two {
     margin: 1em 0;
     border: 1px solid #ddd;
     border-left: none;
     border-right: none;
+    padding: 1em 0;
+}
+.education-agile-w3l.one {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    border-top: none;
     padding: 1em 0;
 }
 /*-- //education --*/
