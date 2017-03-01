@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -27,7 +22,7 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_grid_leftr h4,.w3l_footer_pos p a,.w3ls_footer_grid_leftr a,.w3layouts_header_right ul li a,.w3ls_social li a,.w3_team_grid1_pos,.w3_team_grid1_pos img{
+input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3l_footer_pos p a,.w3layouts_header_right ul li a,.w3ls_social li a,.w3_team_grid1_pos,.w3_team_grid1_pos img{
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
@@ -512,7 +507,7 @@ h3.w3l_head.two {
 .list-gds2{
     font-size: 1em;
     color: #d2d6da;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     padding: 25px;
     text-align: justify;
 
@@ -958,21 +953,20 @@ p.counter {
 .w3ls_footer_grid_leftl{
 	    width: 55px;
     height: 55px;
-    border-radius: 50px;
+
     text-align: center;
-    background: #369fc3;
+
     margin: 0 auto;
 }
 .w3ls_footer_grid_leftl i{
 	color: #fff;
-    font-size: 1em;
-    line-height: 3.4em;
+
 }
 .w3ls_footer_grid_leftr{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .w3ls_footer_grid_leftr h4{
-	font-size: 1.2em;
+	font-size: 1.75em;
     color: #fff;
     letter-spacing: 3px;
     margin-bottom: .5em;
@@ -980,20 +974,26 @@ p.counter {
 .w3ls_footer_grid_leftr p{
 	color:#999;
 	line-height:1.5em;
+    font-size:15px;
 }
 .w3ls_footer_grid_leftr a{
 	color:#999;
 	text-decoration:none;
-	font-size:14px;
+	font-size:15px;
 }
 .w3ls_footer_grid_leftr a:hover{
 	color:#369fc3;
 }
 .w3l_footer_pos{
-      margin-top: 4em;
+      margin-top: 1em;
+}
+.w3l_footer_pos2{
+      margin-top: 0em;
 }
 .w3l_footer_pos p{
 	text-align:center;
+
+
 	color:#fff;
 	line-height:1.8em;
 }
@@ -1005,16 +1005,16 @@ p.counter {
 	color:#fff;
 }
 .w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl{
-	background:#fff;
+
 }
 .w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl i{
-	color:#212121;
+	color:#369fc3;
 }
 .w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h4{
 	color:#369fc3;
 }
 .w3ls_footer_grid_left {
-      background: #2e2e2e;
+
     float: left;
     width: 31%;
     margin: 0 10px;
